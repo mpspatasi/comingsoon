@@ -514,8 +514,7 @@
 
     // COUNTDOWN TIMER
     const targetDate = new Date();
-    targetDate.setDate(targetDate.getDate() + 30);
-
+    const targetDate = new Date("2026-06-23T00:00:00+07:00");
 
     function updateCountdown(){
 
